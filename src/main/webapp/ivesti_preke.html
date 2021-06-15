@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Default imports -->
+    <link rel="stylesheet" href="styles.css" >
+    <script src="main.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    
+    <p>Ivesti preke</p>
+    <form action="PrekesIvedimoServlet" method="POST">
+      <label for="pav">Iveskite pavadinima</label>
+      <input type="text" name="pav" id="pav">
+      <br>
+      <label for="kaina">Iveskite kaina</label>
+      <input type="number" name="kaina" id="kaina" step="0.01">
+      <br>
+      <label for="kiekis">Iveskite kieki</label>
+      <input type="number" name="kiekis" id="kiekis">
+      <br>
+      <label for="aprasas">Iveskite aprasyma</label>
+      <input type="text" name="aprasas" id="aprasas">
+      <br>
+      <br>
+      <input type="submit" value="Ivesti Preke">
+    </form>
+    
+</body>
+</html>
